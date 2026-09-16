@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="hourlydiamonds"
+version="1.0.0"
+displayName="Hourly Diamonds"
+description='''
+Get a diamond for every hour you play, with a full Playtime Rewards menu to track your progress and bigger milestone rewards along the way.
+'''
+
+[[dependencies.hourlydiamonds]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.250,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.hourlydiamonds]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"
